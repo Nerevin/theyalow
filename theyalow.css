@@ -3,8 +3,9 @@
     src: url(assets/LucidaSans.ttf)
 }
 
-body {
+* {
     margin: 0;
+    padding: 0;
 }
 
 header {
@@ -19,7 +20,7 @@ header {
 
 #topWrapper {
    height: 566px;
-   background: url(assets/topBackground.svg);
+   background: url(assets/topBackground.png);
 }
 
 #logo1 {
@@ -60,7 +61,7 @@ header {
     padding: 0px;
 
     font-style: italic;
-    font-size: 30px;
+    font-size: 41px;
     font-weight: normal;
     font-family: "Lucida Sans";
     color: rgba(255, 255, 255, 255);
@@ -70,7 +71,7 @@ header {
 
 #midBlock {
     height: 212px; 
-    background: url(assets/midBackground.svg);
+    background: url(assets/midBackground.png);
 }
 
 #yellowBlock {
@@ -87,4 +88,35 @@ header {
     height: 64px;
     background: url(assets/footer.png);
     box-shadow: -0.105px -2.998px 5px black;
+}
+
+#navMain {
+    position: absolute;
+    top: 71px;
+    left: 707px;
+
+    width: 453px;
+    height: 41px;
+}
+
+#navBack {
+    position: absolute;
+    top: 66px;
+    left: 703px;
+
+    width: 453px;
+    height: 41px;
+
+    opacity: 0.27;
+}
+
+#navBackOp {
+    position: absolute;
+    top: 63px;
+    left: 699px;
+
+    width: 453px;
+    height: 41px;
+
+    opacity: 0.27;
 }
