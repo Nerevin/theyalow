@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "Lucida Sans";
+    src: url(assets/LucidaSans.ttf)
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    width: 1300px;
+}
+
+#bodyWrapper {
+    position: relative;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+#topWrapper {
+   height: 566px;
+   background: url(assets/topBackground.svg);
+}
+
+#logo1 {
+    position: absolute;
+    top: 28px;
+    left: 140px; 
+
+    display: inline-block;
+    width: 83px;
+    height: 83px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo2 {
+    position: absolute;
+    top: 30px;
+    left: 142px; 
+    margin: 0px;
+    padding: 0px;
+    
+    display: inline-block;
+    width: 79px;
+    height: 79px;
+
+    opacity: 0.5;
+}
+
+#head {
+    position: absolute;
+    top: 60px;
+    left: 232px;
+
+    display: inline-block;
+    width: 225px;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+
+    font-style: italic;
+    font-size: 30px;
+    font-weight: normal;
+    font-family: "Lucida Sans";
+    color: rgba(255, 255, 255, 255);
+    text-align: justify;
+    line-height: 1;
+}
+
+#midBlock {
+    height: 212px; 
+    background: url(assets/midBackground.svg);
+}
+
+#yellowBlock {
+    height: 509px;
+    background: url(assets/yellow.svg);
+}
+
+#bottomBlock {
+    height: 499px;
+    background: url(assets/bottomBlock.svg);
+}
+
+#footer {
+    height: 64px;
+    background: url(assets/footer.png);
+    box-shadow: -0.105px -2.998px 5px black;
+}
