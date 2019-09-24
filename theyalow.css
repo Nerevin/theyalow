@@ -3,6 +3,36 @@
     src: url(assets/LucidaSans.ttf)
 }
 
+@font-face {
+    font-family: "SegoeWP";
+    src: url(assets/SegoeWP.ttf)
+}
+
+@font-face {
+    font-family: "Asap";
+    src: url(assets/Asap-Regular.ttf)
+}
+
+@font-face {
+    font-family: "SegoeUI";
+    src: url(assets/SegoeUI.ttf)
+}
+
+@font-face {
+    font-family: "PTSans";
+    src: url(assets/PTSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "SegoeWP Light";
+    src: url(assets/Segoe\ WP\ Light.ttf);
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(assets/OpenSans-Regular.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -70,21 +100,28 @@ header {
 }
 
 #midBlock {
+    position: relative;
     height: 212px; 
     background: url(assets/midBackground.png);
 }
 
 #yellowBlock {
+    position: relative;
+
     height: 509px;
     background: url(assets/yellow.svg);
 }
 
 #bottomBlock {
+    position: relative;
+
     height: 499px;
-    background: url(assets/bottomBlock.svg);
+
+    background: url(assets/bottomBlock.png);
 }
 
 #footer {
+    position: relative;
     height: 64px;
     background: url(assets/footer.png);
     box-shadow: -0.105px -2.998px 5px black;
@@ -97,6 +134,9 @@ header {
 
     width: 453px;
     height: 41px;
+
+    background: url(assets/navBackground.png);
+    z-index: 5;
 }
 
 #navBack {
@@ -107,7 +147,10 @@ header {
     width: 453px;
     height: 41px;
 
+    background: url(assets/navBackgroundOp027.png);
+    background-image: linear-gradient(0deg, #f5c505 0%, #f5c505 100%);
     opacity: 0.27;
+    z-index: 5;
 }
 
 #navBackOp {
@@ -118,5 +161,537 @@ header {
     width: 453px;
     height: 41px;
 
+    background: url(assets/navBackgroundOp0273.png);
+    background-image: linear-gradient(0deg, #f5c505 0%, #f5c505 100%);
     opacity: 0.27;
+    z-index: 5;
+}
+
+nav {
+    position: relative;
+    top: 71px;
+    left: 707px;
+
+    z-index: 6;
+}
+
+#aboutPic {
+    position: absolute;
+    top: 11px;
+    left: 39px;
+
+    width: 21px;
+    height: 19px;
+}
+
+#servicesPic {
+    position: absolute;
+    top: 11px;
+    left: 187px;
+
+    width: 19px;
+    height: 19px;
+}
+
+#contactPic {
+    position: absolute;
+    top: 11px;
+    left: 323px;
+
+    width: 24px;
+    height: 18px;
+}
+
+.navBar li {
+    display: inline-block;
+
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: #9b7d08;
+    font-family: "Segoe WP";
+    text-align: center;
+    line-height: 1;
+}
+
+#about {
+    position: absolute;
+    top: 14px;
+    left: 69px;
+
+    width: 89px;
+    height: 14px
+}
+
+.navBar li:hover {
+    background: #f59505;
+}
+
+#services {
+    position: absolute;
+    top: 14px;
+    left: 215px;
+
+    width: 72px;
+    height: 14px
+}
+
+#contact {
+    position: absolute;
+    top: 14px;
+    left: 355px;
+
+    width: 76px;
+    height: 14px
+}
+
+#video {
+    position: absolute;
+    top: 168px;
+    left: 150px;
+
+    display: inline-block;
+    width: 549px;
+    height: 327px;
+}
+
+#coolWrapper {
+    position: absolute;
+    top: 258px;
+    left: 750px;
+
+    display: inline-block;
+    width: 392px;
+    height: 121px;
+
+    font-family: "Asap";
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+
+#coolMinYellow {
+    font-weight: normal;
+    color: #f5c506;
+}
+
+#coolMinWhite {
+    font-weight: normal;
+    color: white;
+}
+
+#leftButton {
+    position: absolute;
+    top: 300px;
+    left: 0px;
+
+    width: 32px;
+    height: 57px;
+
+    background: url(assets/leftButton.svg);
+    z-index: 5;
+    opacity: 0.71;
+}
+
+#leftButton img {
+    position: absolute;
+    top: 19px;
+    left: 8px;
+
+    width: 13px;
+    height: 19px;
+
+    z-index: 5;
+}
+
+#rightButton {
+    position: absolute;
+    top: 300px;
+    right: 0px;
+
+    width: 32px;
+    height: 57px;
+
+    background: url(assets/leftButton.svg);
+    z-index: 5;
+}
+
+#rightButton img {
+    position: absolute;
+    top: 19px;
+    right: 8px;
+
+    width: 13px;
+    height: 19px;
+
+    z-index: 5;
+}
+
+#midBlock div {
+    position: absolute;
+    top: 0px;
+
+    display: inline-block;
+    width: 341px;
+    height: 212px;
+}
+
+#betterDesign {
+    left: 139px;
+}
+
+#customise {
+    left: 480px;
+}
+
+#free {
+    left: 819px;
+}
+
+#betterDesign img {
+    position: relative;
+    top: 61px;
+    left: 113px;
+}
+
+#betterDesign p {
+    position: absolute;
+    top: 153px;
+    left: 85px;
+
+    width: 190px;
+    height: 21px;
+}
+
+#customise img {
+    position: relative;
+    top: 37px;
+    left: 135px;
+}
+
+#customise p {
+    position: absolute;
+    top: 154px;
+    left: 111px;
+
+    width: 136px;
+    height: 21px;
+}
+
+#free img {
+    position: relative;
+    top: 54px;
+    left: 119px;
+}
+
+#free p {
+    position: absolute;
+    top: 154px;
+    left: 113px;
+
+    width: 100px;
+    height: 21px;
+}
+
+#midBlock p {
+    font-size: 27px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: "SegoeUI";
+    text-align: center;
+    font-weight: 300;
+
+    line-height: 1;
+}
+
+#lorem {
+    position: absolute;
+    top: 42px;
+    left: 143px;
+
+    width: 918px;
+    height: 130px;
+    font-size: 37px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "PTSans";
+    font-weight: 400;
+
+    line-height: 1;
+}
+
+#leftCol {
+    position: absolute;
+    top: 110px;
+    left: 139px;
+
+    display: inline-block;
+    width: 341px;
+    height: 233px;
+
+    background: url(assets/leftBox.png);
+}
+
+#leftCol:hover {
+    box-shadow: inset 0 0 0 20px red;
+}
+
+#leftCol p {
+    position: absolute;
+    top: 17px;
+    left: 30px;
+
+    width: 279px;
+    height: 174px;
+    font-size: 29px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "SegoeWP Light";
+    font-weight: 300;
+}
+
+#leftCol img {
+    position: absolute;
+    top: 209px;
+    left: 316px;
+}
+
+#date {
+    position: absolute;
+    top: 343px;
+    left: 139px;
+
+    width: 113px;
+    height: 86px;
+
+    font-family: "SegoeUI";
+    text-align: center;
+
+    background: url(assets/date.png);
+}
+
+#date1 {
+    position: absolute;
+    top: 14px;
+    left: 30px;
+
+    width: 55px;
+    height: 38px;
+
+    font-size: 51px;
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "SegoeUI";
+    font-weight: bold;
+}
+
+#date2 {
+    position: absolute;
+    top: 60px;
+    left: 30px;
+
+    width: 55px;
+    height: 15px;
+
+    font-size: 21px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: #b26529;
+    font-family: "SegoeUI";
+
+    line-height: 1;
+}
+
+#video2 {
+    position: absolute;
+    top: 110px;
+    left: 480px;
+
+    width: 315px;
+    height: 232px;
+}
+
+#twitter {
+    position: absolute;
+    top: 110px;
+    left: 829px;
+
+    width: 329px;
+    height: 233px;
+
+    background: url(assets/rightBox.png);
+}
+
+#twitter:hover {
+    box-shadow: inset 0 0 0 20px red;
+}
+
+#twitter p {
+    position: absolute;
+    top: 10px;
+    left: 286px;
+
+    width: 24px;
+    height: 18px;
+
+    font-size: 25px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "SegoeWP Light";
+    font-weight: 300;
+}
+
+#bird {
+    position: absolute;
+    top: 59px;
+    left: 83px;
+}
+
+#cross2 {
+    position: absolute;
+    top: 209px;
+    left: 309px;
+}
+
+#slider {
+    position: absolute;
+    bottom: 21px;
+    left: 213px;
+
+    width: 896px;
+    height: 15px;
+
+    background: url(assets/sliderBig.svg);
+}
+
+#slider img {
+    position: absolute;
+    left: 247px;
+}
+
+#bottomBlock p {
+    position: absolute;
+    top: 43px;
+    left: 350px;
+
+    display: inline-block;
+    width: 601px;
+    height: 32px;
+
+    font-size: 43px;
+    letter-spacing: 0px;
+    color: #f5c506;
+    font-family: "PTSans";
+    font-weight: 400;
+
+    line-height: 1;
+}
+
+#free100 {
+    position: absolute;
+    top: 94px;
+    left: 138px;
+
+    z-index: 5;
+}
+
+#pc {
+    position: absolute;
+    top: 137px;
+    left: 158px;
+}
+
+#laptop {
+    position: absolute;
+    top: 179px;
+    left: 505px;
+}
+
+#mobile {
+    position: absolute;
+    top: 289px;
+    left: 659px;
+}
+
+#bottomBlock ul {
+    width: 385px;
+    height: 210px;
+    list-style-image: url(assets/dotted.png);
+}
+
+#bottomBlock li {
+    padding-left: 15px;
+
+    font-size: 22px;
+    letter-spacing: 0px;
+    color: #a9a9a7;
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+
+#li1 {
+    position: absolute;
+    top: 179px;
+    left: 800px;
+
+    width: 320px;
+    height: 22px;
+}
+
+#li2 {
+    position: absolute;
+    top: 228px;
+    left: 802px;
+
+    width: 345px;
+    height: 49px;
+}
+
+#li3 {
+    position: absolute;
+    top: 294px;
+    left: 802px;
+
+    width: 320px;
+    height: 22px;
+}
+
+#li4 {
+    position: absolute;
+    top: 345px;
+    left: 802px;
+
+    width: 345px;
+    height: 49px;
+}
+
+#footer1 {
+    position: absolute;
+    top: 6px;
+    left: 140px;
+}
+
+#footer2 {
+    position: absolute;
+    top: 7px;
+    left: 141px;
+    opacity: 0.5;
+}
+
+#footer p {
+    position: absolute;
+    top: 19px;
+    left: 199px;
+
+    font-size: 29px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "Lucida Sans";
+    font-style: italic;
+    text-align: center;
+    line-height: 1;
 }
