@@ -38,210 +38,206 @@
     padding: 0;
 }
 
-header {
-    width: 1300px;
-}
-
-#bodyWrapper {
-    position: relative;
+.bodyWrapper {
     width: 1300px;
     margin: 0 auto;
 }
 
-#topWrapper {
-   height: 566px;
-   background: url(assets/topBackground.png);
+.headerWrapper {
+    position: relative;
+    height: 566px;
+
+    background: url(assets/topBackground.png);
 }
 
-#logo1 {
-    position: absolute;
+.whiteBlock {
+    position: relative;
+    height: 212px;
+
+    background: url(assets/midBackground.png);
+}
+
+.yellowBlock {
+    position: relative;
+    height: 509px;
+
+    background: url(assets/yellow.svg);
+}
+
+.greyBlock {
+    position: relative;
+    height: 499px;
+
+    background: url(assets/bottomBlock.png);
+}
+
+.footer {
+    position: relative;
+    height: 64px;
+
+    background: url(assets/footer.png);
+    box-shadow: -0.105px -2.998px 5px black;
+}
+
+.logoWrapperTop {
+    position: relative;
     top: 28px;
-    left: 140px; 
+    left: 140px;
 
     display: inline-block;
     width: 83px;
     height: 83px;
-    margin: 0px;
-    padding: 0px;
 }
 
-#logo2 {
+#logo {
     position: absolute;
-    top: 30px;
-    left: 142px; 
-    margin: 0px;
-    padding: 0px;
-    
-    display: inline-block;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+
+    width: 83px;
+    height: 83px;
+}
+
+#shadow {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+
     width: 79px;
     height: 79px;
 
     opacity: 0.5;
 }
 
-#head {
+.headerWrapper h1 {
     position: absolute;
-    top: 60px;
-    left: 232px;
+    top: 55px;
+    left: 227px;
 
     display: inline-block;
     width: 225px;
     height: 30px;
-    margin: 0px;
-    padding: 0px;
 
     font-style: italic;
     font-size: 41px;
     font-weight: normal;
     font-family: "Lucida Sans";
     color: rgba(255, 255, 255, 255);
-    text-align: justify;
+    text-transform: uppercase;
     line-height: 1;
 }
 
-#midBlock {
-    position: relative;
-    height: 212px; 
-    background: url(assets/midBackground.png);
-}
-
-#yellowBlock {
-    position: relative;
-
-    height: 509px;
-    background: url(assets/yellow.svg);
-}
-
-#bottomBlock {
-    position: relative;
-
-    height: 499px;
-
-    background: url(assets/bottomBlock.png);
-}
-
-#footer {
-    position: relative;
-    height: 64px;
-    background: url(assets/footer.png);
-    box-shadow: -0.105px -2.998px 5px black;
-}
-
-#navMain {
+.nav {
     position: absolute;
-    top: 71px;
-    left: 707px;
-
+    top: 70px;
+    left: 706px;
+    
     width: 453px;
     height: 41px;
-
-    background: url(assets/navBackground.png);
-    z-index: 5;
-}
-
-#navBack {
-    position: absolute;
-    top: 66px;
-    left: 703px;
-
-    width: 453px;
-    height: 41px;
-
-    background: url(assets/navBackgroundOp027.png);
-    background-image: linear-gradient(0deg, #f5c505 0%, #f5c505 100%);
-    opacity: 0.27;
-    z-index: 5;
-}
-
-#navBackOp {
-    position: absolute;
-    top: 63px;
-    left: 699px;
-
-    width: 453px;
-    height: 41px;
-
-    background: url(assets/navBackgroundOp0273.png);
-    background-image: linear-gradient(0deg, #f5c505 0%, #f5c505 100%);
-    opacity: 0.27;
-    z-index: 5;
-}
-
-nav {
-    position: relative;
-    top: 71px;
-    left: 707px;
-
-    z-index: 6;
-}
-
-#aboutPic {
-    position: absolute;
-    top: 11px;
-    left: 39px;
-
-    width: 21px;
-    height: 19px;
-}
-
-#servicesPic {
-    position: absolute;
-    top: 11px;
-    left: 187px;
-
-    width: 19px;
-    height: 19px;
-}
-
-#contactPic {
-    position: absolute;
-    top: 11px;
-    left: 323px;
-
-    width: 24px;
-    height: 18px;
-}
-
-.navBar li {
-    display: inline-block;
-
-    font-size: 17px;
+  
+    font-size: 15px;
     letter-spacing: 0px;
     color: #9b7d08;
     font-family: "Segoe WP";
     text-align: center;
+    text-transform: uppercase;
     line-height: 1;
+
+    box-shadow: -5px -5px rgba(245, 197, 6, 0.27), -10px -10px rgba(245, 197, 6, 0.27);
+
+    background: url(assets/navBackground.png);
 }
 
-#about {
+.about {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: inline-block;
+    width: 151px;
+    height: 41px;
+}
+
+.about img {
+    position: absolute;
+    top: 11px;
+    left: 39px;
+
+    display: inline-block;
+    width: 21px;
+    height: 19px;
+}
+
+.about figcaption {
     position: absolute;
     top: 14px;
     left: 69px;
-
-    width: 89px;
-    height: 14px
 }
 
-.navBar li:hover {
+.services {
+    position: absolute;
+    top: 0;
+    left: 151px;
+
+    display: inline-block;
+    width: 151px;
+    height: 41px;
+}
+
+.services img {
+    position: absolute;
+    top: 11px;
+    left: 36px;
+
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+}
+
+.services figcaption {
+    position: absolute;
+    top: 14px;
+    left: 64px;
+}
+
+.contact {
+    position: absolute;
+    top: 0;
+    left: 302px;
+
+    display: inline-block;
+    width: 151px;
+    height: 41px;
+}
+
+.contact img {
+    position: absolute;
+    top: 11px;
+    left: 21px;
+
+    display: inline-block;
+    width: 24px;
+    height: 18px;
+}
+
+.contact figcaption {
+    position: absolute;
+    top: 14px;
+    left: 53px;
+}
+
+.about:hover {
     background: #f59505;
 }
 
-#services {
-    position: absolute;
-    top: 14px;
-    left: 215px;
-
-    width: 72px;
-    height: 14px
+.services:hover {
+    background: #f59505;
 }
 
-#contact {
-    position: absolute;
-    top: 14px;
-    left: 355px;
-
-    width: 76px;
-    height: 14px
+.contact:hover {
+    background: #f59505;
 }
 
 #video {
@@ -254,155 +250,154 @@ nav {
     height: 327px;
 }
 
-#coolWrapper {
+.coolWrapper {
     position: absolute;
-    top: 258px;
-    left: 750px;
+    top: 240px;
+    left: 738px;
 
     display: inline-block;
     width: 392px;
     height: 121px;
 
     font-family: "Asap";
-    font-size: 40px;
+    font-size: 60px;
     letter-spacing: 1px;
     text-align: center;
-    line-height: 1;
+    text-transform: uppercase;
+    color: #f5c506;
+    line-height: 1.2;
     letter-spacing: 1px;
 }
 
-#coolMinYellow {
-    font-weight: normal;
-    color: #f5c506;
-}
-
-#coolMinWhite {
-    font-weight: normal;
+.coolWrapper span {
     color: white;
 }
 
-#leftButton {
+.leftButton {
     position: absolute;
     top: 300px;
-    left: 0px;
+    left: 0;
 
     width: 32px;
     height: 57px;
 
-    background: url(assets/leftButton.svg);
-    z-index: 5;
-    opacity: 0.71;
+    background-color: #c6a00c;
 }
 
-#leftButton img {
+.leftButton img {
     position: absolute;
-    top: 19px;
-    left: 8px;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
 
     width: 13px;
     height: 19px;
-
-    z-index: 5;
 }
 
-#rightButton {
+.rightButton {
     position: absolute;
     top: 300px;
-    right: 0px;
+    right: 0;
 
     width: 32px;
     height: 57px;
 
-    background: url(assets/leftButton.svg);
-    z-index: 5;
+    background-color: #f5c506;
 }
 
-#rightButton img {
+.rightButton img {
     position: absolute;
-    top: 19px;
-    right: 8px;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
 
     width: 13px;
     height: 19px;
-
-    z-index: 5;
 }
 
-#midBlock div {
+.whiteBlock figure {
     position: absolute;
-    top: 0px;
+    top: 0;
 
     display: inline-block;
-    width: 341px;
+    width: 342px;
     height: 212px;
-}
 
-#betterDesign {
-    left: 139px;
-}
-
-#customise {
-    left: 480px;
-}
-
-#free {
-    left: 819px;
-}
-
-#betterDesign img {
-    position: relative;
-    top: 61px;
-    left: 113px;
-}
-
-#betterDesign p {
-    position: absolute;
-    top: 153px;
-    left: 85px;
-
-    width: 190px;
-    height: 21px;
-}
-
-#customise img {
-    position: relative;
-    top: 37px;
-    left: 135px;
-}
-
-#customise p {
-    position: absolute;
-    top: 154px;
-    left: 111px;
-
-    width: 136px;
-    height: 21px;
-}
-
-#free img {
-    position: relative;
-    top: 54px;
-    left: 119px;
-}
-
-#free p {
-    position: absolute;
-    top: 154px;
-    left: 113px;
-
-    width: 100px;
-    height: 21px;
-}
-
-#midBlock p {
     font-size: 27px;
     letter-spacing: 0px;
     color: #000000;
     font-family: "SegoeUI";
     text-align: center;
     font-weight: 300;
+    text-transform: uppercase;
 
     line-height: 1;
+}
+
+.design {
+    left: 139px;
+}
+
+.design img {
+    position: relative;
+    top: 62px;
+    left: -4px;
+
+    width: 109px;
+    height: 74px;
+}
+
+.design figcaption {
+    position: absolute;
+    top: 149px;
+    left: 85px;
+
+    width: 190px;
+    height: 21px;
+}
+
+.customise {
+    left: 480px;
+}
+
+.customise img {
+    position: relative;
+    top: 37px;
+    left: 9px;
+
+    width: 91px;
+    height: 95px;
+}
+
+.customise figcaption {
+    position: absolute;
+    top: 150px;
+    left: 111px;
+
+    width: 136px;
+    height: 21px;
+}
+
+.free {
+    left: 819px;
+}
+
+.free img {
+    position: relative;
+    top: 54px;
+    left: -11px;
+
+    width: 81px;
+    height: 83px;
+}
+
+.free figcaption {
+    position: absolute;
+    top: 150px;
+    left: 113px;
+
+    width: 100px;
+    height: 21px;
 }
 
 #lorem {
@@ -573,7 +568,7 @@ nav {
     left: 247px;
 }
 
-#bottomBlock p {
+.greyBlock p {
     position: absolute;
     top: 43px;
     left: 350px;
@@ -617,13 +612,13 @@ nav {
     left: 659px;
 }
 
-#bottomBlock ul {
+.greyBlock ul {
     width: 385px;
     height: 210px;
     list-style-image: url(assets/dotted.png);
 }
 
-#bottomBlock li {
+.greyBlock li {
     padding-left: 15px;
 
     font-size: 22px;
@@ -682,7 +677,7 @@ nav {
     opacity: 0.5;
 }
 
-#footer p {
+.footer p {
     position: absolute;
     top: 19px;
     left: 199px;
