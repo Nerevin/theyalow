@@ -520,11 +520,19 @@
     background: url(assets/rightBox.png);
 }
 
+.mobileTwitter {
+    display: none;
+}
+
+#twitter form {
+    display: none;
+}
+
 #twitter:hover {
     box-shadow: inset 0 0 0 20px red;
 }
 
-#twitter p {
+.dateTwitter {
     position: absolute;
     top: 10px;
     left: 286px;
@@ -689,4 +697,532 @@
     font-style: italic;
     text-align: center;
     line-height: 1;
+}
+
+@media (max-width: 640px) {
+
+    .whiteBlock {
+        position: relative;
+        height: 174px;
+
+        box-shadow: 0 -5px rgba(242, 242, 2426, 0.4), 0 -10px rgba(242, 242, 242, 0.11);
+    
+        background: white;
+    }
+    
+    .yellowBlock {
+        position: relative;
+        height: 482px;
+    
+        background: white;
+    }
+    
+    .greyBlock {
+        position: relative;
+        height: 466px;
+    
+        background: url(assets/bottomBlock.png);
+    }
+    
+    .footer {
+        position: relative;
+        height: 43px;
+    
+        background: url(assets/footer.png);
+        box-shadow: -0.105px -2.998px 5px black;
+    }
+
+    .bodyWrapper {
+        width: 640px;
+        margin: 0 auto;
+    }
+
+    .headerWrapper {
+        position: relative;
+        width: 186px;
+        height: 389px;
+        
+        background-image: none;
+        background-color: #464646;
+    }
+
+    .logoWrapperTop {
+        position: relative;
+        top: 11px;
+        left: 12px;
+    
+        display: inline-block;
+        width: 40px;
+        height: 39px;
+    }
+
+    #logo {
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        transform: translate(50%, -50%);
+    
+        width: 40px;
+        height: 39px;
+    }
+    
+    #shadow {
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        transform: translate(50%, -50%);
+    
+        width: 38px;
+        height: 37px;
+    
+        opacity: 0.5;
+    }
+
+    .headerWrapper h1 {
+        position: absolute;
+        top: 24px;
+        left: 56px;
+    
+        display: inline-block;
+        width: 108px;
+        height: 14px;
+    
+        font-style: italic;
+        font-size: 19px;
+        font-weight: normal;
+        font-family: "Lucida Sans";
+        color: rgba(255, 255, 255, 255);
+        text-transform: uppercase;
+        line-height: 1;
+    }
+
+    .nav {
+        position: absolute;
+        top: 0;
+        left: 185px;
+        
+        width: 455px;
+        height: 62px;
+      
+        font-size: 19px;
+        letter-spacing: 0px;
+        color: #9b7d08;
+        font-family: "Segoe WP";
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 1;
+    
+        box-shadow: none;
+    
+        background: url(assets/navBackground.png);
+    }
+    
+    .about {
+        position: absolute;
+        top: 0;
+        left: 0;
+    
+        display: inline-block;
+        width: 172px;
+        height: 62px;
+    }
+    
+    .about img {
+        position: absolute;
+        top: 20px;
+        left: 24px;
+    
+        display: inline-block;
+        width: 24px;
+        height: 22px;
+    }
+    
+    .about figcaption {
+        position: absolute;
+        top: 22px;
+        left: 59px;
+    }
+    
+    .services {
+        position: absolute;
+        top: 0;
+        left: 172px;
+    
+        display: inline-block;
+        width: 133px;
+        height: 62px;
+    }
+    
+    .services img {
+        position: absolute;
+        top: 21px;
+        left: 9px;
+    
+        display: inline-block;
+        width: 22px;
+        height: 22px;
+    }
+    
+    .services figcaption {
+        position: absolute;
+        top: 23px;
+        left: 39px;
+    }
+    
+    .contact {
+        position: absolute;
+        top: 0;
+        left: 305px;
+    
+        display: inline-block;
+        width: 149px;
+        height: 62px;
+    }
+    
+    .contact img {
+        position: absolute;
+        top: 20px;
+        left: 12px;
+    
+        display: inline-block;
+        width: 28px;
+        height: 21px;
+    }
+    
+    .contact figcaption {
+        position: absolute;
+        top: 23px;
+        left: 52px;
+    }
+
+    #video {
+        display: none;
+    }
+
+    #mobileBird {
+        position: absolute;
+        top: 62px;
+        left: 0px;
+    
+        display: inline-block;
+        width: 640px;
+        height: 327px;
+
+        background: url(assets/birdmobile.png);
+    }
+
+    .coolWrapper, .leftButton, .rightButton {
+        display: none;
+    }
+
+    .whiteBlock figure {
+        position: absolute;
+        top: 0;
+    
+        display: inline-block;
+        width: 213px;
+        height: 174px;
+    
+        font-size: 23px;
+        letter-spacing: 0px;
+        color: #000000;
+        font-family: "SegoeUI";
+        text-align: center;
+        font-weight: 300;
+        text-transform: uppercase;
+    
+        line-height: 1;
+    }
+    
+    .design {
+        left: 0;
+    }
+    
+    .design img {
+        position: relative;
+        top: 35px;
+        left: -12px;
+    
+        width: 89px;
+        height: 61px;
+    }
+    
+    .design figcaption {
+        position: absolute;
+        top: 114px;
+        left: -10px;
+    
+        width: 100%;
+        height: 18px;
+    }
+    
+    .customise {
+        left: 193px;
+    }
+    
+    .customise img {
+        position: relative;
+        top: 27px;
+        left: 30px;
+    
+        width: 67px;
+        height: 69px;
+    }
+    
+    .customise figcaption {
+        position: absolute;
+        top: 113px;
+        left: 35px;
+    
+        width: 100%;
+        height: 18px;
+    }
+    
+    .free {
+        left: 426px;
+    }
+    
+    .free img {
+        position: relative;
+        top: 30px;
+        left: 0;
+    
+        width: 68px;
+        height: 69px;
+    }
+    
+    .free figcaption {
+        position: absolute;
+        top: 115px;
+        left: 8px;
+    
+        width: 100%;
+        height: 18px;
+    }
+
+    #lorem {
+        display: none;
+    }
+    
+    #leftCol {
+        position: absolute;
+        top: 7px;
+        left: 9px;
+    
+        display: inline-block;
+        width: 299px;
+        height: 232px;
+    
+        background: url(assets/leftBox.png);
+    }
+    
+    #leftCol br, #date, #slider, #cross2, .greyBlock ul {
+        display: none;
+    }
+
+    #leftCol p {
+        position: absolute;
+        top: 17px;
+        left: 30px;
+    
+        width: 250px;
+        height: 189px;
+        font-size: 28px;
+        letter-spacing: 0px;
+        line-height: 33px;
+        color: #ffffff;
+        font-family: "SegoeWP Light";
+        font-weight: 300;
+    }
+    
+    #leftCol img {
+        position: absolute;
+        top: 204px;
+        left: 277px;
+    }
+    
+    #video2 {
+        position: absolute;
+        top: 6px;
+        left: 317px;
+    
+        width: 315px;
+        height: 232px;
+    }
+    
+    #twitter {
+        position: absolute;
+        top: 248px;
+        left: 0;
+    
+        width: 640px;
+        height: 234px;
+    
+        background: #f5c507;
+    }
+
+    #twitter:hover {
+        box-shadow: none;
+    }
+    
+    .mobileTwitter {
+        display: inline-block;
+        width: 284px;
+        height: 42px;
+
+        font-size: 13px;
+        letter-spacing: 0px;
+        color: #8f8e8e;
+        font-family: "Open Sans";
+        text-transform: capitalize;
+        text-align: left;
+
+        background: url(assets/twitter\ comment.png);
+    }
+
+    .mobileTwitter span {
+        text-transform: none;
+    }
+
+    #firstTwitt {
+        position: absolute;
+        top: 24px;
+        right: 32px;
+    }
+
+    #firstTwitt p {
+        position: absolute;
+        top: 5px;
+        left: 27px;
+    }
+
+    #secondTwitt {
+        position: absolute;
+        top: 80px;
+        right: 32px;
+
+        opacity: 0.7;
+    }
+
+    #secondTwitt p {
+        position: absolute;
+        top: 5px;
+        left: 27px;
+    }
+
+    #thirdTwitt {
+        position: absolute;
+        top: 136px;
+        right: 32px;
+
+        opacity: 0.7;
+    }
+
+    #thirdTwitt p {
+        position: absolute;
+        top: 5px;
+        left: 27px;
+    }
+
+    #twitter form {
+        position: absolute;
+        top: 192px;
+        right: 33px;
+
+        display: inline-block;
+        width: 271px;
+        height: 29px;
+
+    }
+
+    .input {
+        width: 190px;
+        height: 29px;
+    }
+
+    .button {
+        width: 69px;
+        height: 29px;
+
+        background: #e5a422;
+    }
+
+    .greyBlock p {
+        position: absolute;
+        top: 33px;
+        left: 18px;
+    
+        display: inline-block;
+        width: 590px;
+        height: 30px;
+    
+        font-size: 39px;
+        letter-spacing: 0px;
+        color: #f5c506;
+        font-family: "PTSans";
+        font-weight: 400;
+    
+        line-height: 1;
+    }
+
+    #free100 {
+        position: absolute;
+        top: 115px;
+        left: 27px;
+    
+        z-index: 5;
+    }
+    
+    #pc {
+        position: absolute;
+        top: 156px;
+        left: 57px;
+    }
+    
+    #laptop {
+        position: absolute;
+        top: 198px;
+        left: 404px;
+    }
+    
+    #mobile {
+        position: absolute;
+        top: 308px;
+        left: 558px;
+    }
+
+    #footer1 {
+        position: absolute;
+        top: 6px;
+        left: 65px;
+
+        width: 31px;
+        height: 31px;
+    }
+    
+    #footer2 {
+        position: absolute;
+        top: 7px;
+        left: 66px;
+
+        width: 29px;
+        height: 29px;
+
+        opacity: 0.5;
+    }
+    
+    .footer p {
+        position: absolute;
+        top: 14px;
+        left: 101px;
+    
+        font-size: 17px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-family: "Lucida Sans";
+        font-style: italic;
+        text-align: center;
+        line-height: 1;
+    }
+    
 }
